@@ -29,11 +29,11 @@ body{
 }
 
 .text-container{
-    text-align: center;
     justify-items: center;
 }
 
 .component-first-text{
+    text-align: center;
     font-weight: 700;
     font-size: 22px;
     width: 256px;
@@ -41,6 +41,7 @@ body{
 }
 
 .component-second-text{
+    text-align: center;
     padding-top: 16px;
     font-weight: 400;
     width: 253px;

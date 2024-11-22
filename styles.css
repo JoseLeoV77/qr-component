@@ -1,0 +1,63 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Outfit;
+}
+
+body{
+    height: 100vh;
+    background-color: hsl(212, 45%, 89%);
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    height: 499px;
+    background-color: white;
+    border-radius: 24px;
+    box-shadow: 0px 20px 10px 0px rgba(124, 122, 122, 0.068);
+}
+
+.text-container{
+    text-align: center;
+    justify-items: center;
+}
+
+.component-first-text{
+    font-weight: 700;
+    font-size: 22px;
+    width: 256px;
+    color:hsl(218, 44%, 22%);
+}
+
+.component-second-text{
+    padding-top: 16px;
+    font-weight: 400;
+    width: 253px;
+    color: hsl(216, 15%, 48%);
+}
+
+
+.qr-img{
+    align-self: center;
+    width: 288px;
+    height: 288px;
+    border-radius: 10px;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.attribution{
+    position: fixed;
+    bottom: 50px;
+    width: 256px;
+    text-align: center;
+}
